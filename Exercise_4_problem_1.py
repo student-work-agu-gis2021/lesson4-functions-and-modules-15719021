@@ -29,10 +29,10 @@ def fahr_to_celsius(temp_fahrenheit):
 # 2. What about 71° Fahrenheit in Celsius?
 
 # ### Check your code
-t1 = fahr_to_celsius(48)
-print('48° Fahrenheit is ',t1,'Celsius') 
-t2 = fahr_to_celsius(71)
-print('71° Fahrenheit is ',t2,'Celsius')
+test_48 = fahr_to_celsius(48)
+print(test_48) 
+test_71 = fahr_to_celsius(71)
+print(test_71)
 # - Make sure you used the given variable names
 # - Check that you have added necessary comments to your code
 # - Check that your function has a docstring that describes what it does
