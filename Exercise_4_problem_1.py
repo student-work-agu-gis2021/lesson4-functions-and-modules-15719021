@@ -20,7 +20,8 @@
 
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
-  return (fahr_to_celsius-32)/1.8
+  converted_temp = (fahr_to_celsius-32)/1.8
+  return converted_temp
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:
