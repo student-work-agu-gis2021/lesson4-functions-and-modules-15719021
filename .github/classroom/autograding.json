@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "pytest for p1 and p2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "command line test for p3",
+      "setup": "",
+      "run": "python Exercise_4_problem_3.py",
+      "input": "",
+      "output": "94 180 62 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
