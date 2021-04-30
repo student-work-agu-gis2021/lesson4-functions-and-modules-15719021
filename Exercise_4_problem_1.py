@@ -47,7 +47,8 @@ print(test_71)
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
+print("1. It was understandable to write a list of function and parameter names after def. It was difficult to define the body of the function and the variables. ")
+print("2. With the function, we don't have to write same programs repeatedly.")
 #
 #
 #
