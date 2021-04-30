@@ -26,14 +26,20 @@
 
 # YOUR CODE HERE to define temp_classifier
 def temp_classifier(temp_celsius):
-  
-  return converted_temp
-# Use your newly created function to print the answers to the following questions:
+  """The function temp_classifier accepts temperature values in degrees Celsius that are reclassified into integers 0-3 based on the following criteria:
+Define the parameter temp_celsius.
+Return value classification criteria
+Temperatures below 0 degrees Celsius-2 degrees Celsius
+1 Temperature is -2 or higher and less than +2 degrees Celsius
+2 Temperatures above +2 and below +15 degrees Celsius
+Temperatures above 3 degrees Celsius + 15 degrees Celsius
+Returns the reclassified value as an integer (0, 1, 2, or 3)."""
+  # Use your newly created function to print the answers to the following questions:
 
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
-#
+
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
 #
