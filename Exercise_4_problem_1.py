@@ -20,6 +20,11 @@
 
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
+  """Create a function that converts the input temperature from Fahrenheit to Celsius.
+Set the variable converted_temp and assign the expression to be converted.
+The conversion formula from Fahrenheit to Celsius is as follows.
+T_ {Celsius} = (T_ {Fahrenheit} -32) / 1.8
+Returns the value of the input temperature changed to Celsius."""
   converted_temp = (temp_fahrenheit-32)/1.8
   return converted_temp
 # ### Problem 1 tests
@@ -33,6 +38,7 @@ test_48 = fahr_to_celsius(48)
 print(test_48) 
 test_71 = fahr_to_celsius(71)
 print(test_71)
+print(fahr_to_celsius.__doc__)
 # - Make sure you used the given variable names
 # - Check that you have added necessary comments to your code
 # - Check that your function has a docstring that describes what it does

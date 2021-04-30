@@ -25,7 +25,9 @@
 
 
 # YOUR CODE HERE to define temp_classifier
-
+def temp_classifier(temp_celsius):
+  
+  return converted_temp
 # Use your newly created function to print the answers to the following questions:
 
 
