@@ -34,12 +34,23 @@ Temperatures below 0 degrees Celsius-2 degrees Celsius
 2 Temperatures above +2 and below +15 degrees Celsius
 Temperatures above 3 degrees Celsius + 15 degrees Celsius
 Returns the reclassified value as an integer (0, 1, 2, or 3)."""
-  # Use your newly created function to print the answers to the following questions:
 
+  if temp_celsius < -2 :
+      return '| 0            |'
+  elif (temp_celsius >= -2) and (temp_celsius <2):
+      return '| 1            |'
+  elif (temp_celsius >= 2) and (temp_celsius <15):
+      return '| 2            |'
+  elif temp_celsius >=15 :
+      return '| 3            |'
+
+# Use your newly created function to print the answers to the following questions:
+print(temp_classifier.__doc__)
 
 # 1. What is the class value for 16.5 degrees Celsius?
-# YOUR CODE HERE
-
+# YOUR CODE HEREtest_48 = fahr_to_celsius(48)
+test_48 = temp_classifier(48)
+print('1. '+ test_48)
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
 #

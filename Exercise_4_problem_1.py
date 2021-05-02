@@ -35,7 +35,7 @@ Returns the value of the input temperature changed to Celsius."""
 
 # ### Check your code
 test_48 = fahr_to_celsius(48)
-print(test_48) 
+print(test_48)
 test_71 = fahr_to_celsius(71)
 print(test_71)
 print(fahr_to_celsius.__doc__)
