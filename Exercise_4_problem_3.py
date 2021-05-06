@@ -17,7 +17,7 @@
 # - Answering some questions at the end of this problem
 
 # ### Part 1: Creating a script file (1 point)
-# 
+print("I added to create a script file.")
 # For this part you should
 # 
 # - Create a new script file called `temp_functions.py` in the current directory as we saw in the Lesson 4 materials. Copy and paste the functions that you wrote in Problems 1 and 2 into that script file (i.e., the `fahr_to_celsius` and `temp_classifier` functions)
@@ -65,7 +65,8 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 
 
 # YOUR CODE HERE
-
+from temp_functions import fahr_to_celsius
+from temp_functions import temp_classifier
 # #### Part 2 (continues)
 # 
 # 6. Calculate how many temperatures there are in each temperature class:
