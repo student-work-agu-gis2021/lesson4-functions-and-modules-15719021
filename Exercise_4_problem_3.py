@@ -67,6 +67,8 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 # YOUR CODE HERE
 from temp_functions import fahr_to_celsius
 from temp_functions import temp_classifier
+
+temp_classes = []
 # #### Part 2 (continues)
 # 
 # 6. Calculate how many temperatures there are in each temperature class:
