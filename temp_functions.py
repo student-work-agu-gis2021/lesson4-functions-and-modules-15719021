@@ -1,21 +1,13 @@
-from Exercise_4_problem_1 import fahr_to_celsius
+def fahr_to_celsius(temp_fahrenheit):
+  converted_temp = (temp_fahrenheit-32)/1.8
+  return converted_temp
 
-def test_48():
-	assert round(fahr_to_celsius(48), 2)==8.89
-
-def test_71():
-	assert round(fahr_to_celsius(71), 2)==21.67
-
-from Exercise_4_problem_2 import temp_classifier
-
-def test_0():
-	assert temp_classifier(16.5)==3
-
-def test_1():
-	assert temp_classifier(2)==2
-
-def test_2():
-	assert temp_classifier(-5)==0
-
-def test_2():
-	assert temp_classifier(11)==2
+def temp_classifier(temp_celsius):
+  if temp_celsius < -2 :
+      return 0
+  elif (temp_celsius >= -2) and (temp_celsius <2):
+      return 1
+  elif (temp_celsius >= 2) and (temp_celsius <15):
+      return 2
+  elif temp_celsius >=15 :
+      return 3
