@@ -69,6 +69,14 @@ from temp_functions import fahr_to_celsius
 from temp_functions import temp_classifier
 
 temp_classes = []
+
+temp_classes.append(temp_class)
+
+
+def temp_celsius(temp_data):
+
+print(temp_classes)
+
 # #### Part 2 (continues)
 # 
 # 6. Calculate how many temperatures there are in each temperature class:

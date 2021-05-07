@@ -20,11 +20,15 @@
 
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
-  """Create a function that converts the input temperature from Fahrenheit to Celsius.
-Set the variable converted_temp and assign the expression to be converted.
-The conversion formula from Fahrenheit to Celsius is as follows.
-T_ {Celsius} = (T_ {Fahrenheit} -32) / 1.8
-Returns the value of the input temperature changed to Celsius."""
+  """
+  Create a function that converts the input temperature from Fahrenheit to Celsius.
+  parameters: temp_fahrenheit
+  Set the variable converted_temp and assign the expression to be converted.
+  The conversion formula from Fahrenheit to Celsius is as follows.
+  T_ {Celsius} = (T_ {Fahrenheit} -32) / 1.8
+  Returns the value of the input temperature changed to Celsius.
+
+  """
   converted_temp = (temp_fahrenheit-32)/1.8
   return converted_temp
 # ### Problem 1 tests
@@ -53,8 +57,8 @@ print(fahr_to_celsius.__doc__)
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-print("1. It was understandable to write a list of function and parameter names after def. It was difficult to define the body of the function and the variables. ")
-print("2. With the function, we don't have to write same programs repeatedly.")
+# 1. It was understandable to write a list of function and parameter names after def. It was difficult to define the body of the function and the variables.
+# 2. With the function, we don't have to write same programs repeatedly.
 #
 #
 #
